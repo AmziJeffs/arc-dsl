@@ -387,7 +387,7 @@ def remove(
     return type(container)(e for e in container if e != value)
 
 
-def other(
+def other( 
     container: Container,
     value: Any
 ) -> Any:
@@ -405,8 +405,8 @@ def interval(
 
 
 def astuple(
-    a: Integer,
-    b: Integer
+    a: Any,
+    b: Any
 ) -> IntegerTuple:
     """ constructs a tuple """
     return (a, b)
