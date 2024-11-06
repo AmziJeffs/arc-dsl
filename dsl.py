@@ -387,7 +387,7 @@ def remove(
     return type(container)(e for e in container if e != value)
 
 
-def other( 
+def other(
     container: Container,
     value: Any
 ) -> Any:
