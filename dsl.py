@@ -201,7 +201,7 @@ def minimum(
 def valmax(
     container: Container,
     compfunc: Callable
-) -> Integer:
+) -> Numerical:
     """ maximum by custom function """
     return compfunc(max(container, key=compfunc, default=0))
 
